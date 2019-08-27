@@ -76,5 +76,3 @@ gem 'carrierwave', '~> 2.0'
 gem "mini_magick"
 gem "figaro"
 gem 'carrierwave-aws'
-gem 'aws-sdk-s3'
-gem 'aws-sdk', '< 2.0'
