@@ -2,7 +2,7 @@
 
 CarrierWave.configure do |config|
 
-  config.storage    = :fog
+  config.storage    = :aws
   config.aws_bucket = ENV["AWS_BUCKET"]
   config.aws_acl    = "public-read"
 

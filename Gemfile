@@ -76,3 +76,4 @@ gem 'carrierwave', '~> 2.0'
 gem "mini_magick"
 gem "figaro"
 gem 'carrierwave-aws'
+gem 'fog-aws'
