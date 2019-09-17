@@ -7,8 +7,8 @@ CarrierWave.configure do |config|
   config.aws_acl    = "public-read"
 
   config.aws_credentials = {
-      access_key_id:     ENV["pusher_key"],
-      secret_access_key: ENV["pusher_secret"],
+      access_key_id:     ENV["AWS_ACCESS_KEY"],
+      secret_access_key: ENV["AWS_SECRET_KEY"],
       region:            ENV["AWS_REGION"]
   }
   
